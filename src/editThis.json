@@ -1,0 +1,46 @@
+{
+  "Readme": "This file contains all questions and answers prevailing them",
+  "Readme too": "Do not change ID of first question: 100",
+  "100": {
+    "heading": "This is a question",
+    "options": [
+      {
+        "value": "This is an option",
+        "next": "1001",
+        "readThis": "The 'next' contains the id of the next question"
+      },
+      {
+        "value": "This is another option",
+        "next": "1002",
+        "readThis": "Naming options like this can be helpful. 100 as main question.",
+        "readThis too": "And 1001, 1002 as sub. NOTE: This is just for readability and won't affect the application :)"
+      }
+    ]
+  },
+  "1001": {
+    "heading": "This is a final question",
+    "description": "You can have final questions without options. This description will be desplayed as a paragraph."
+  },
+  "1002": {
+    "heading": "This is a sub question",
+    "options": [
+      {
+        "value": "This is an options",
+        "next": "10021",
+        "readThis": "Notice this questions ID and the next questions ID."
+      },
+      {
+        "value": "This is another option",
+        "next": "10022"
+      }
+    ]
+  },
+  "10021": {
+    "headiing": "This is a final question",
+    "description": "This is the end of this question"
+  },
+  "10022": {
+    "heading": "This is another final question",
+    "description": "This is another final questions description"
+  }
+}
