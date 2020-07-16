@@ -1,0 +1,2 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}h1{text-align:center}#currentQuestion{border:2px solid grey;border-radius:10px;padding:10px;margin:10px}#currentQuestion h2{text-align:center}#options{display:flex;flex-flow:column;justify-content:center;align-items:center}#options button{width:30%;margin:20px;min-width:300px}
+/*# sourceMappingURL=main.d4aba561.chunk.css.map */
